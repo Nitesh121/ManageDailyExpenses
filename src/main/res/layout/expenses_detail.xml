@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/layoutMargin"
+        android:background="@color/layoutBackgroundColor">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="@dimen/textViewHeight"
+            android:text="@string/textViewTextTotalExpenses"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="@dimen/textViewHeight"
+            android:id="@+id/textViewTotalExpenses"
+            android:padding="@dimen/textViewTextPadding"
+            android:background="@drawable/textview_shape" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/layoutMargin"
+        android:background="@color/layoutBackgroundColor">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="@dimen/textViewHeight"
+            android:text="@string/textViewTextTotalMember"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="@dimen/textViewHeight"
+            android:id="@+id/textViewTotalMember"
+            android:padding="@dimen/textViewTextPadding"
+            android:background="@drawable/textview_shape" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/layoutMargin"
+        android:background="@color/layoutBackgroundColor">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="@dimen/textViewHeight"
+            android:text="@string/textViewTextEachCost"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="@dimen/textViewHeight"
+            android:id="@+id/textViewEachCost"
+            android:padding="@dimen/textViewTextPadding"
+            android:background="@drawable/textview_shape" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/layoutMargin"
+        android:background="@color/layoutBackgroundColor">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="@dimen/textViewHeight"
+            android:text="@string/textViewTextYourAdvance"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="@dimen/textViewHeight"
+            android:id="@+id/textViewYourAdvance"
+            android:padding="@dimen/textViewTextPadding"
+            android:background="@drawable/textview_shape" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/layoutMargin"
+        android:background="@color/layoutBackgroundColor">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="@dimen/textViewHeight"
+            android:text="@string/textViewTextBalance"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="@dimen/textViewHeight"
+            android:id="@+id/textViewBalance"
+            android:padding="@dimen/textViewTextPadding"
+            android:background="@drawable/textview_shape"/>
+    </LinearLayout>
+
+</LinearLayout>

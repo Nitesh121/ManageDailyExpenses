@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/addExpensesLinearLayout"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/layoutBackgroundColor"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:layout_width="@dimen/editTextWidth"
+        android:layout_height="@dimen/editTextHeight"
+        android:id="@+id/editTextItemName"
+        android:inputType="text"
+        android:ems="10"
+        android:hint="@string/editTextHintItemName"
+        android:background="@drawable/edit_text_shape"
+        android:layout_marginBottom="@dimen/bottomMargin"/>
+    <EditText
+        android:layout_width="@dimen/editTextWidth"
+        android:layout_height="@dimen/editTextHeight"
+        android:id="@+id/editTextItemQuantity"
+        android:ems="10"
+        android:inputType="text"
+        android:background="@drawable/edit_text_shape"
+        android:hint="@string/editTextHintItemQuantity"
+        android:layout_marginBottom="@dimen/bottomMargin"/>
+    <EditText
+        android:layout_width="@dimen/editTextWidth"
+        android:layout_height="@dimen/editTextHeight"
+        android:id="@+id/editTextItemCost"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:background="@drawable/edit_text_shape"
+        android:hint="@string/editTextHintItemCost"
+        android:layout_marginBottom="@dimen/bottomMargin"/>
+    <Button
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="@dimen/buttonHeight"
+        android:id="@+id/buttonAddExpenses"
+        android:background="@drawable/button_shape"
+        android:text="@string/buttonTextAdd"
+        android:onClick="addExpenses2"/>
+    <Button
+        android:layout_width="@dimen/backButtonWidth"
+        android:layout_height="@dimen/backButtonHeight"
+        android:background="@drawable/backbutton"
+        android:onClick="backToHome"
+        android:layout_marginTop="@dimen/buttonLayoutTopMargin"/>
+
+</LinearLayout>

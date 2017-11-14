@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Manage Daily Expenses</string>
+    <!--Button-->
+    <string name="buttonTextAddMember">Add Member</string>
+    <string name="buttonTextRemoveMember">Remove Member</string>
+    <string name="buttonTextClearAllExpenses">Clear All Expenses</string>
+    <string name="buttonTextClearAdvance">Clear All Advance</string>
+    <string name="buttonTextAddExpenses">Add Expenses</string>
+    <string name="buttonTextViewExpenses">View Expenses</string>
+    <string name="buttonTextMembersDetail">Member\'s Detail</string>
+    <string name="buttonTextAddAdvance">Add Advance</string>
+    <string name="buttonTextSave">Save</string>
+    <string name="buttonTextAdd">Add</string>
+    <string name="buttonTextSendMessage">Send Message</string>
+    <string name="buttonTextBack">Back</string>
+    <string name="buttonTextSignIn">Sign In</string>
+    <!--Button-->
+
+    <!--EditText-->
+    <string name="editTextHintMemberName">Name</string>
+    <string name="editTextHintMemberContact">Contact</string>
+    <string name="editTextHintMemberAddress">Address</string>
+    <string name="editTextHintItemName">Item Name</string>
+    <string name="editTextHintItemQuantity">Quantity</string>
+    <string name="editTextHintItemCost">Cost</string>
+    <string name="editTextHintAdvancePayment">Advance Payment</string>
+    <string name="editTextHintInputNumber">Enter Phone Number</string>
+    <!--EditText-->
+
+    <string name="textViewTextTotalExpenses">Total Expenses</string>
+    <string name="textViewTextTotalMember">Total Member</string>
+    <string name="textViewTextEachCost">Each Cost</string>
+    <string name="textViewTextYourAdvance">Your Advance</string>
+    <string name="textViewTextBalance">Balance</string>
+    <string name="textViewTextName">Name</string>
+    <string name="textViewTextPhone">Phone</string>
+    <string name="textViewTextAdvance">Advance</string>
+
+    <!--menu tittle-->
+    <string name="menuTittleMemberLogin">Member Login</string>
+    <string name="menuTittleMemberProfile">Profile</string>
+    <string name="menuTittleMemberLogout">Logout</string>
+    <!--menu tittle-->
+
+</resources>

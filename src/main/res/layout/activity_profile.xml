@@ -1,0 +1,74 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/llForProfile"
+    android:background="@color/layoutBackgroundColor"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/bottomMargin">>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="@dimen/textViewHeight"
+            android:text="@string/textViewTextName"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="@dimen/textViewHeight"
+            android:id="@+id/profileTextViewName"
+            android:padding="@dimen/textViewTextPadding"
+            android:background="@drawable/textview_shape" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/bottomMargin">>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="@dimen/textViewHeight"
+            android:text="@string/textViewTextPhone"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="@dimen/textViewHeight"
+            android:id="@+id/profileTextViewPhone"
+            android:padding="@dimen/textViewTextPadding"
+            android:background="@drawable/textview_shape" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/bottomMargin">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="@dimen/textViewHeight"
+            android:text="@string/textViewTextAdvance"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="@dimen/textViewHeight"
+            android:id="@+id/profileTextViewAdvance"
+            android:padding="@dimen/textViewTextPadding"
+            android:background="@drawable/textview_shape" />
+    </LinearLayout>
+    <Button
+        android:layout_width="@dimen/backButtonWidth"
+        android:layout_height="@dimen/backButtonHeight"
+        android:background="@drawable/backbutton"
+        android:onClick="backToHome"
+        android:layout_marginTop="@dimen/buttonLayoutTopMargin"/>
+
+</LinearLayout>

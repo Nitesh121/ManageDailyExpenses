@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/layoutBackgroundColor"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/bottomMargin">>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="@dimen/textViewHeight"
+            android:text="@string/textViewTextTotalExpenses"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="@dimen/textViewHeight"
+            android:id="@+id/textViewTotalExpenses2"
+            android:padding="@dimen/textViewTextPadding"
+            android:background="@drawable/textview_shape" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/bottomMargin">>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="@dimen/textViewHeight"
+            android:text="@string/textViewTextTotalMember"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="@dimen/textViewHeight"
+            android:id="@+id/textViewTotalMember2"
+            android:padding="@dimen/textViewTextPadding"
+            android:background="@drawable/textview_shape" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="@dimen/bottomMargin">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="@dimen/textViewHeight"
+            android:text="@string/textViewTextEachCost"
+            />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="7"
+            android:layout_height="@dimen/textViewHeight"
+            android:id="@+id/textViewEachCost2"
+            android:padding="@dimen/textViewTextPadding"
+            android:background="@drawable/textview_shape" />
+    </LinearLayout>
+
+    <Button
+        android:layout_width="@dimen/buttonWidth"
+        android:layout_height="@dimen/buttonHeight"
+        android:id="@+id/buttonSendMessage"
+        android:text="@string/buttonTextSendMessage"
+        android:background="@drawable/button_shape"
+        android:onClick="sendMessage"/>
+    <Button
+        android:layout_width="@dimen/backButtonWidth"
+        android:layout_height="@dimen/backButtonHeight"
+        android:background="@drawable/backbutton"
+        android:onClick="backToHome"
+        android:layout_marginTop="@dimen/buttonLayoutTopMargin"/>
+</LinearLayout>

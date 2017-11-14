@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="bottomMargin">10dp</dimen>
+    <dimen name="layoutMargin">5dp</dimen>
+
+    <dimen name="buttonWidth">300dp</dimen>
+    <dimen name="buttonHeight">40dp</dimen>
+    <dimen name="buttonTextSize">20sp</dimen>
+    <dimen name="buttonLayoutBottomMargin">20dp</dimen>
+    <dimen name="buttonLayoutTopMargin">40dp</dimen>
+    <dimen name="backButtonWidth">50dp</dimen>
+    <dimen name="backButtonHeight">50dp</dimen>
+
+    <dimen name="editTextWidth">300dp</dimen>
+    <dimen name="editTextHeight">50dp</dimen>
+    <dimen name="editTextTextSize">20dp</dimen>
+    <dimen name="editTextCornerRadius">5dp</dimen>
+    <dimen name="editTextStrokeWidth">1dp</dimen>
+    <dimen name="editTextPadding">5dp</dimen>
+
+    <dimen name="spinnerHeight">50dp</dimen>
+    <dimen name="spinnerWidth">300dp</dimen>
+    <dimen name="spinnerStrokeWidth">1dp</dimen>
+
+    <dimen name="textViewHeight">50dp</dimen>
+    <dimen name="textViewStrokeWidth">1dp</dimen>
+    <dimen name="textViewWidth0dp">0dp</dimen>
+    <dimen name="textViewTextPadding">10dp</dimen>
+    <dimen name="textViewRadius">10dp</dimen>
+</resources>
